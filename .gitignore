@@ -23,6 +23,21 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
+
+# Visual Studio Files
+*.tlog
+*.unsuccessfulbuild
+*.pdb
+*.lastbuildstate
+*.sdf
+*.user
+*.cache
+*.opensdf
+*.suo
+*.log
+Debug/
+Release/
+*.aps
+ipch/
