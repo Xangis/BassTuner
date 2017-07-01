@@ -6,7 +6,7 @@
 #include "Commdlg.h"
 #include "stdlib.h"
 #include "stdio.h"
-#include "DirectNoise.h"
+#include "BassTuner.h"
 #define INITGUID
 #include "mmsystem.h"
 #define MAX_LOADSTRING 100
