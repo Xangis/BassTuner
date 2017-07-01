@@ -174,7 +174,7 @@ BOOL CALLBACK BassTuner( HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 		return TRUE;
 
 	case WM_COMMAND:
-		if( LOWORD(wParam) == IDEXIT )
+		if( LOWORD(wParam) == IDEXIT || LOWORD(wParam) == WM_DESTROY )
 		{
 			DestroyWindow( hDlg );
 			done = true;
